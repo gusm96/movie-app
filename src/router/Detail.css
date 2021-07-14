@@ -1,0 +1,27 @@
+.movie__container {
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 85%;
+  border: solid black 1px;
+  border-radius: 10px;
+  box-shadow: 0 13px 27px -5px gray 0 8px 16px -8px gray, 0 -6px 16px -6px gray;
+  background-size: cover;
+  opacity: 0.8;
+}
+.movie__info {
+  position: absolute;
+  display: block;
+  color: black;
+  margin: 0 5%;
+  padding: 5% 5%;
+  border-radius: 10px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  background-color: rgb(255, 255, 255, 0.8);
+  font-weight: bold;
+}
